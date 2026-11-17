@@ -1,0 +1,109 @@
+MainWindow {
+    qproperty-contentMargin: 16;
+    qproperty-contentSpacing: 16;
+    background-color: #ffffff;
+}
+
+#central,
+#actionPanel,
+#regionColumn {
+    background-color: #ffffff;
+}
+
+#panelTitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1f2328;
+    background: transparent;
+}
+
+QPushButton {
+    background-color: #ffffff;
+    color: #1f2328;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    padding: 6px 12px;
+    min-height: 32px;
+}
+
+QPushButton:hover {
+    background-color: #f6f8fa;
+    border-color: #00a8ff;
+}
+
+QPushButton:pressed {
+    background-color: #e7f5ff;
+}
+
+#bindButton {
+    background-color: #00a8ff;
+    color: #ffffff;
+    border: none;
+}
+
+#bindButton:hover,
+#bindButton:pressed {
+    background-color: #0090dc;
+    color: #ffffff;
+    border: none;
+}
+
+#regionPanel {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+}
+
+#regionScroll,
+#regionViewport,
+#regionList {
+    background-color: #f6f8fa;
+    border: none;
+}
+
+#emptyHint {
+    color: #8b949e;
+    font-size: 13px;
+    background: transparent;
+}
+
+#regionItem {
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+#regionItem[hovered="true"] {
+    background-color: #e7f3ff;
+}
+
+#regionName {
+    color: #1f2328;
+    font-size: 13px;
+    background: transparent;
+}
+
+#regionMeta {
+    color: #6e7781;
+    font-size: 12px;
+    background: transparent;
+}
+
+#regionActions {
+    background: transparent;
+}
+
+#regionItem QPushButton {
+    min-height: 22px;
+    padding: 2px 8px;
+    font-size: 12px;
+    background-color: #ffffff;
+}
+
+#regionItem QPushButton#deleteButton {
+    color: #c0392b;
+}
+
+#regionItem QPushButton#deleteButton:hover {
+    background-color: #fdecea;
+    border-color: #e0746c;
+}
